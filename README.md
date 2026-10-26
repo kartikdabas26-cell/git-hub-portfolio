@@ -1,32 +1,32 @@
-# React + TypeScript + Vite
+# Kartik Dabas — Frontend Engineer & UI Architect
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Live Website: [https://kartik-dabas-portfolio.vercel.app](https://kartik-dabas-portfolio.vercel.app)
 
-Currently, two official plugins are available:
+Modern, interactive, and responsive developer portfolio built with React 19, TypeScript, Tailwind CSS, and Framer Motion. Showcasing software engineering projects, data science applications, and creative frontend design systems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚡ Tech Stack & Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 & Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS & Kanit Typography
+- **Animations**: Framer Motion & Interactive Magnet Effects
+- **Cloud & Backend**: Firebase & Cloud Firestore
+- **Deployment**: Vercel Edge Network
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Featured Projects
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- [MediCycle](https://medicycle-phi.vercel.app/) — Unified Medicine Supply & Redistribution Network
+- [SafeRoute](https://safe-route-jade.vercel.app/) — Real-Time Spatial Safety Intelligence & Urban Radar
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📬 Connect
+
+- **Portfolio**: [https://kartik-dabas-portfolio.vercel.app](https://kartik-dabas-portfolio.vercel.app)
+- **GitHub**: [@kartikdabas26-cell](https://github.com/kartikdabas26-cell)
+- **LinkedIn**: [Kartik Dabas](https://www.linkedin.com/in/kartik-dabas-198730406/)
+- **Email**: [kartikdabas26@gmail.com](mailto:kartikdabas26@gmail.com)

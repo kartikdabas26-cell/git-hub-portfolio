@@ -191,6 +191,9 @@ export default function App() {
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setFormSubmitted(true);
+    const subject = encodeURIComponent(`Portfolio Inquiry from ${formData.name}`);
+    const body = encodeURIComponent(`${formData.message}\n\n---\nSender: ${formData.name}\nEmail: ${formData.email}`);
+    window.location.href = `mailto:kartikdabas26@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => {
       setFormSubmitted(false);
       setContactModalOpen(false);
@@ -819,14 +822,16 @@ export default function App() {
               href="https://github.com/kartikdabas26-cell" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Kartik Dabas GitHub"
               className="p-3 rounded-full border border-[#D7E2EA]/30 text-[#D7E2EA] hover:bg-[#D7E2EA]/10 transition-colors"
             >
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/kartik-dabas-198730406/" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Kartik Dabas LinkedIn"
               className="p-3 rounded-full border border-[#D7E2EA]/30 text-[#D7E2EA] hover:bg-[#D7E2EA]/10 transition-colors"
             >
               <Linkedin className="w-6 h-6" />
